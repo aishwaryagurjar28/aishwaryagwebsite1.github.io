@@ -1,0 +1,206 @@
+
+/* first logo editing */
+
+
+#logo img{
+    height: 25px;
+    width: 24px;
+    margin: 3px 3px;
+    box-sizing: inline-block;
+    border-radius: 40px
+}
+#navbar{
+    /* position: relative; */
+    display: flex;
+    position: sticky;
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(214, 86, 86);
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    /* position: sticky; */
+    position: absolute;
+   
+}
+#navbar h1{
+    font-size:40px
+}
+#navbar ul li{
+    
+    list-style: none;
+    font-size: 16px;
+   
+
+}
+#navbar  .item1{
+    list-style: none;
+    font-size: 8px;
+    margin-left: -30px;
+    margin-top: -58px
+   }
+   #navbar .item2{
+    
+    list-style: none;
+    font-size: 8px;
+    margin-left: -19px;
+    margin-top: -57px;
+   }
+   #navbar .item3{
+    
+    margin-top: -57px;
+    list-style: none;
+    font-size: 8px;
+    margin-left: -17px;
+   }
+#navbar ul li a {
+    border: 0px;
+    display: block;
+    padding:6px 13px;;
+    border-radius:20px ;
+    text-decoration: none;
+    color: white;
+    margin-top: 82px;
+}
+#navbar ul li a:hover {
+   background-color: white;
+    color: black;
+}
+/* navbar heading's styling */
+#navbar h1{
+    color: white;
+    font-size: 19px;
+    letter-spacing: 0.1em;
+    font-family: serif,didot;
+    margin-left: -70px;
+    margin-top: 5px;
+}
+ 
+
+
+/* grid 1 editing */
+.part1 img {
+    vertical-align: middle;
+    height:142px;
+    width: 147px;
+    margin-left: -2px;
+    
+}
+.part2 img {
+    vertical-align: middle;
+    height: 124px;
+    width: 148px;
+    margin-left: 3px
+}
+
+
+/* home styling */
+#home{
+    display: grid;
+    
+    /* border: 2px solid black; */
+    margin-bottom: 85px;
+    z-index: -1;
+    background-image: url(C:\Users\vijay\OneDrive\Desktop\desktop\wd\msaawrecreate.github.io\s2.jpg);
+    /* background: rgb(218, 93, 93); */
+    
+   
+}
+
+.h-primary h2{
+    font-size: 20px;
+    padding-top: 41px;
+    padding-left: 25px;
+    
+   
+}
+.h-primary h3{
+    font-size: 19px;
+    padding-top: 8px;
+    padding-left: 120px;
+    
+   
+}
+ #home p1{
+    font-size: 18px;
+    margin-left: 33px;
+    margin-top: 52px
+           
+}
+#home p2{
+    font-size: 18px;
+    margin-left: 81px;
+    margin-top: 0px;
+           
+}
+
+#home::before{ 
+    content: "";
+    background: url("./s2.jpg") no-repeat center center/cover ;
+    z-index: -1;
+    height: 32%;
+    width: 100%;
+    position: absolute;
+    
+    opacity:0.3 ;
+   
+}
+#myDIV{
+    animation: mymove 7s infinite;
+    margin-top: -104px;
+}
+@keyframes mymove {
+    50% {padding: 50px;}
+}
+#myDIV img{
+   
+    display: flex;
+    height: 72px;
+    width: 91px;;
+   
+}
+#myDIV h3{
+    margin-left: 79px;
+    font-size: 28px;
+    margin-top: -68px;
+ }
+ #myDIV h4{
+    font-size: 16px;
+   
+ }
+
+ /* about part styling */
+.ending{
+    background-color: rgb(168 153 153);
+
+ }
+  .ending h5{
+    font-size: 11px;
+    margin-left: 9px;
+    color: black;
+    padding-top: 9px;
+    padding-bottom: 2px
+  }
+  .ending p{
+      font-size: 8px;
+      margin-left: 18px;
+      color: black;
+  }
+  .ending h6{
+    font-size: 11px;
+    margin-left: 99px;
+    color: black;
+    margin-top: 2px;
+}
+/* social media icons styling */
+.fa {
+    padding: -29px;
+    font-size: 7px;
+    width: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 12px;
+    color: black;
+  }
+  

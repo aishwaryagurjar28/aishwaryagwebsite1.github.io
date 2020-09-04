@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  media="screen and (max-width: 1170px)"href="phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>website1</title>
+</head>
+
+<body>
+
+
+    <!-- navigation bar  -->
+    <nav id="navbar">
+        <div id="logo">
+            <img src="C:\Users\vijay\OneDrive\Desktop\desktop\wd\msaawrecreate.github.io\logo1.jpg" alt="logo">
+
+        </div>
+
+        <ul>
+            <li class="item1"><a href="">Home</a></li>
+            <li class="item2"><a href="">About</a></li>
+            <li class="item3"><a href="">Contact Us</a></li>
+
+        </ul>
+    </div>
+        <h1>MY STORY AS A (WO)MAN</h1>
+    </nav>
+
+
+    <!-- grid contining tht woman gif and slideshow  -->
+    <div class="container">
+        <div class="part1">
+            <img src="C:\Users\vijay\OneDrive\Desktop\desktop\wd\msaawrecreate.github.io\gif1.gif" alt="gif1">
+        </div>
+        <div class="part2">
+            <div class="slideshow-container">
+
+                <div class="mySlides ">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="C:\Users\vijay\OneDrive\Desktop\desktop\wd\msaawrecreate.github.io\img1.png">
+
+                </div>
+
+                <div class="mySlides ">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="C:\Users\vijay\OneDrive\Desktop\desktop\wd\msaawrecreate.github.io\img2.png">
+
+                </div>
+
+                <div class="mySlides ">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="C:\Users\vijay\OneDrive\Desktop\desktop\wd\msaawrecreate.github.io\img3.png">
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    </div>
+
+
+    <!-- main photo with content -->
+    <section id="home">
+        <!-- <img src="C:\Users\vijay\OneDrive\Desktop\desktop\wd\msaawrecreate.github.io\s2.jpg" alt="main image"> -->
+        <div class="h-primary">
+            <h2>MENTAL HEALTH RESOURCE </h2>
+            <h3> CENTER</h3>
+        </div>
+        <p1> A project to decode the understanding </p1>
+        <p2> of mental health in India.</p2>
+        <button class="btn">Know more</button>
+    </section>
+
+
+    <div id="myDIV">
+        <img src="C:\Users\vijay\OneDrive\Desktop\desktop\wd\msaawrecreate.github.io\logo1.jpg " alt="logo">
+        <h3> What's with the name?</h3>
+        <br><br><br>
+
+        <h4> Our mission ,vision,hope and goal is to inspire everyone to
+            look past gender stereotypes and preconvinced notions which often makes it a battle zone between genders
+        </h4>
+    </div>
+    </div>
+
+
+    <!-- ending about part -->
+    <div class="ending">
+        <h5> ABOUT US</h5>
+        <p>
+            <strong>MSAAW Foundation</strong> is an organistation with a team of passionate and commited individuals
+            trying to
+            constuctively address the gender-based issues relevant to this day and age . Our future goal is to see each
+            and every individual embrace themselves
+            and march on to live on their own terms in a gender equal society .
+        </p>
+
+        <h5> KEY PAGES</h5>
+
+        <p>
+            About us<br>
+            Team<br>
+            Wordpress Blog<br>
+            Contact Us
+        </p>
+
+        <h5>GET IN TOUCH</h5>
+        <p>Write to us on <strong> mystoryasawoman@gmail.com</strong> </p>
+
+        <h5> FOLLOW US</h5>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+       
+        <hr>
+        <h6>
+            Made by Aishwarya Gurjar</h6><br>
+    </div>
+    <!-- slideshow javascript -->
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+
+    </script>
+</body>
+
+</html>

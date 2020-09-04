@@ -1,0 +1,253 @@
+/* for al elements in the website  */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --navbar-height:500px;
+}
+/* logo image styling */
+#logo img{
+    height: 100px;
+    width: 100px;
+    margin: 8px 2px;
+    box-sizing: inline-block;
+    border-radius: 50px;
+}
+/* navigation bar and list styling */
+#navbar{
+    /* position: relative; */
+    display: flex;
+    position: sticky;
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(214, 86, 86);
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    /* position: sticky; */
+    position: absolute;
+   
+}
+#navbar ul{
+    display: flex;
+    
+   
+}
+#navbar ul li{
+    
+    list-style: none;
+    font-size: 16px;
+
+}
+#navbar ul li a {
+    border: 0px;
+    display: block;
+    padding:6px 13px;;
+    border-radius:20px ;
+    text-decoration: none;
+    color: white;
+    margin-top: 82px;
+}
+#navbar ul li a:hover {
+   background-color: white;
+    color: black;
+}
+/* navbar heading's styling */
+#navbar h1{
+    color: white;
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    font-family:serif,didot;
+}
+/* grid1 */
+.container{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    box-sizing: ;
+  
+}
+  
+
+.mySlides {display: none;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width:  800px;
+  position: relative;
+  margin: auto;
+}
+.numbertext{
+    color: white;
+}
+.part1 img {
+    vertical-align: middle;
+    height:598px;
+    width: 500px;
+    
+}
+.part2 img {
+    vertical-align: middle;
+    height:542px;
+    width: 940px;
+    margin-left: -255px;
+}
+/* home section styling */
+
+/* #home{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:329px 237px;
+    margin: -39px;
+} */
+#home{
+    display: grid;
+    
+    /* border: 2px solid black; */
+    margin-bottom: 85px;
+    z-index: -1;
+    background-image: url(C:\Users\vijay\OneDrive\Desktop\desktop\wd\msaawrecreate.github.io\s2.jpg);
+    /* background: rgb(218, 93, 93); */
+    
+   
+}
+
+.h-primary h2{
+    font-size: 80px;
+    padding-top: 100px;
+    padding-left: 200px;
+    
+   
+}
+.h-primary h3{
+    font-size: 80px;
+    padding-top: 25px;
+    padding-left: 525px;
+    
+   
+}
+ #home p1{
+    font-size: 50px;
+    margin-left: 300px;
+    margin-top: 180px;
+           
+}
+#home p2{
+    font-size: 50px;
+    margin-left: 432px;
+    margin-top: 11px;
+           
+}
+
+#home::before{ 
+    content: "";
+    background: url("./s2.jpg") no-repeat center center/cover ;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+    opacity:0.3 ;
+   
+}
+/* #home h1{
+    text-align: center;
+    
+} */
+.btn{
+   
+    padding: 2px;
+    background-color: rgb(172 172 172);
+    margin-left: 650px;
+    margin-right: 690px;
+    margin-top: 19px;
+    margin-bottom: -20px;
+    color: black;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+} 
+/* utility classes */
+/* .h-primary{
+font-size: 53px;
+padding: 12px;
+
+} */
+
+#myDIV{
+    animation: mymove 7s infinite;
+}
+@keyframes mymove {
+    50% {padding: 50px;}
+}
+#myDIV img{
+   
+   display: flex;
+   height: 185px;
+   width: 212px;
+   
+}
+#myDIV h3{
+    margin-left: 204px;
+    font-size: 72px;
+    margin-top: -103px
+ }
+ #myDIV h4{
+    font-size: 28px;
+   
+ }
+/* about part styling */
+.ending{
+    background-color: rgb(168 153 153);
+
+ }
+  .ending h5{
+    font-size: 21px;
+    margin-left: 47px;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 2px;
+  }
+  .ending p{
+      font-size: 15px;
+      margin-left: 50px;
+      color: black;
+  }
+  .ending h6{
+    font-size: 20px;
+    margin-left: 550px;
+    color: black;
+}
+/* try */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  
+  /* Style all font awesome icons */
+.fa {
+    padding: 5px;
+    font-size: 70px;
+    width: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 40px;
+    color: black;
+  }
+  
+
+  
+ 
+  

@@ -181,12 +181,12 @@ padding: 12px;
 
 } */
 
-#myDIV{
+/* #myDIV{
     animation: mymove 7s infinite;
 }
 @keyframes mymove {
     50% {padding: 50px;}
-}
+} */
 #myDIV img{
    
    display: flex;

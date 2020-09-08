@@ -5,7 +5,7 @@
 #logo img{
     height: 25px;
     width: 24px;
-    margin: 3px 3px;
+    margin: 15px 3px;
     box-sizing: inline-block;
     border-radius: 40px
 }
@@ -37,7 +37,7 @@
 #navbar  .item1{
     list-style: none;
     font-size: 8px;
-    margin-left: -45px;
+    margin-left: -37px;
     margin-top: -38px;
    }
    #navbar .item2{
@@ -110,29 +110,29 @@
 }
 
 .h-primary h2{
-    font-size: 20px;
+    font-size: 24px;
     padding-top: 41px;
-    padding-left: 25px;
+    padding-left: 6px;
     
    
 }
 .h-primary h3{
-    font-size: 19px;
-    padding-top: 8px;
+    font-size: 24px;
+    padding-top: 5px;
     padding-left: 120px;
     
    
 } 
 
  #home p1{
-    font-size: 18px;
-    margin-left: 33px;
-    margin-top: 52px
+    font-size: 22px;
+    margin-left: 13px;
+    margin-top: 111px;
            
 }
 #home p2{
-    font-size: 18px;
-    margin-left: 81px;
+    font-size: 24px;
+    margin-left: 61px;
     margin-top: 0px;
            
 }
@@ -141,7 +141,7 @@
     content: "";
     background: url("./s2.jpg") no-repeat center center/cover ;
     z-index: -1;
-    height: 32%;
+    height: 52%;
     width: 100%;
     position: absolute;
     
@@ -150,7 +150,7 @@
 }
 #myDIV{
     animation: mymove 7s infinite;
-    margin-top: -104px;
+    margin-top: 2px;
 }
 @keyframes mymove {
     50% {padding: 50px;}
@@ -169,6 +169,7 @@
  }
  #myDIV h4{
     font-size: 16px;
+    margin-left: 14px;
    
  }
 

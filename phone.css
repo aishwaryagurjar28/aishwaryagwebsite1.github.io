@@ -83,16 +83,16 @@
 /* grid 1 editing */
 .part1 img {
     vertical-align: middle;
-    height:142px;
+    height:209px;
     width: 147px;
     margin-left: -2px;
     
 }
 .part2 img {
     vertical-align: middle;
-    height: 124px;
-    width: 148px;
-    margin-left: 3px
+    height: 190px;
+    width: 214px;
+    margin-left: -35px;
 }
 
 

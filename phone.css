@@ -37,19 +37,19 @@
 #navbar  .item1{
     list-style: none;
     font-size: 8px;
-    margin-left: -30px;
-    margin-top: -58px
+    margin-left: -45px;
+    margin-top: -38px;
    }
    #navbar .item2{
     
     list-style: none;
     font-size: 8px;
     margin-left: -19px;
-    margin-top: -57px;
+    margin-top: -38px;
    }
    #navbar .item3{
     
-    margin-top: -57px;
+    margin-top: -37px;
     list-style: none;
     font-size: 8px;
     margin-left: -17px;
@@ -70,11 +70,12 @@
 /* navbar heading's styling */
 #navbar h1{
     color: white;
-    font-size: 19px;
+    font-size: 20px;
     letter-spacing: 0.1em;
     font-family: serif,didot;
     margin-left: -70px;
-    margin-top: 5px;
+    margin-top: 17px;
+
 }
  
 
